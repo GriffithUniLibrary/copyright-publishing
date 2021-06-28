@@ -10,3 +10,6 @@ and other cool stuff
 > Like
 > Indents
 
+{%- capture superb -%}does this work?{%- endcapture -%}
+
+{%- include superb -%}
